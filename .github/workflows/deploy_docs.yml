@@ -33,4 +33,7 @@ jobs:
         run: git config user.name bofa1exx && git config user.email bofa1exx@gmail.com
       - name: Mike Deploy main
         run: |
-          mkdocs gh-deploy --force
+          git fetch origin gh-pages --depth=1 # fix mike's CI update
+          mike list
+          mike deploy main -p --rebase
+          mike list
