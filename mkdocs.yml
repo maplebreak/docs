@@ -1,0 +1,81 @@
+# Project information
+site_name: MapleBreak Wiki
+site_description: Documentation for maplebreak
+site_author: MapleBreak
+site_url: https://maplebreak.github.io/docs
+docs_dir: docs
+repo_name: 'maplebreak/docs'
+repo_url: 'https://github.com/maplebreak/docs.git'
+copyright: Copyright &copy; 2023 MapleBreak
+edit_uri: 'https://github.com/maplebreak/docs/edit/master/docs/'
+
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+  logo: icon/logo.svg
+  palette:
+    - scheme: mapledsl
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  features:
+    - navigation.top
+    - header.autohide
+    - content.tabs.link
+    - content.code.copy
+  language: 'en'
+
+extra_css:
+  - stylesheets/logo.css
+  - stylesheets/note.css
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - footnotes
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+      separator: "_"
+  - mdx_truly_sane_lists
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.caret
+  - pymdownx.tilde
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - search
+  - git-revision-date-localized
+
+extra_javascript:
+  - js/jquery.js
+  - js/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra:
+  version:
+    method: mike
+    provider: mike
+    default: master
+
+nav:
+  - Home: index.md
+  - Guide:
+      - Overview: 1.guide/1.overview/overview.md
+  - FAQ: 3.appendix/FAQ.md
+  - Appendix:
+      - Release Note: 3.appendix/release-note.md
+      - How to contribute: 3.appendix/how-to-contribute.md
