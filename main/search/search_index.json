@@ -1,1 +1,1 @@
-{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Welcome to MapleBreak Documentation","text":"<p>Note</p> <p>More tech specification.</p>"}]}
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Welcome to MapleBreak Documentation","text":"<p>Note</p> <p>More tech specification.</p>"},{"location":"3.appendix/mindmap/tmp-gameplay/","title":"Omitted","text":"# Root  ## Branch 1  * Branchlet 1a * Branchlet 1b  ## Branch 2  * Branchlet 2a * Branchlet 2b"}]}
