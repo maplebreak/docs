@@ -2,32 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://maplebreak.github.io/docs/main/</loc>
-         <lastmod>2023-10-22</lastmod>
+         <lastmod>2023-12-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maplebreak.github.io/docs/main/1.guide/1.overview/overview/</loc>
-         <lastmod>2023-10-22</lastmod>
+         <lastmod>2023-12-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://maplebreak.github.io/docs/main/2.nakama/lobby/integration/</loc>
+         <lastmod>2023-12-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maplebreak.github.io/docs/main/3.appendix/FAQ/</loc>
-         <lastmod>2023-10-22</lastmod>
+         <lastmod>2023-12-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maplebreak.github.io/docs/main/3.appendix/how-to-contribute/</loc>
-         <lastmod>2023-10-22</lastmod>
+         <lastmod>2023-12-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maplebreak.github.io/docs/main/3.appendix/release-note/</loc>
-         <lastmod>2023-10-22</lastmod>
+         <lastmod>2023-12-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maplebreak.github.io/docs/main/3.appendix/mindmap/tmp-gameplay/</loc>
-         <lastmod>2023-10-22</lastmod>
+         <lastmod>2023-12-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
