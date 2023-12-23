@@ -15,7 +15,7 @@ theme:
     repo: fontawesome/brands/github
   logo: icon/logo.svg
   palette:
-    - scheme: mapledsl
+    - scheme: maplebreak
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
@@ -79,6 +79,8 @@ nav:
   - Home: index.md
   - Guide:
       - Overview: 1.guide/1.overview/overview.md
+      - Nakama:
+          - Lobby: 2.nakama/lobby/integration.md
   - FAQ: 3.appendix/FAQ.md
   - Appendix:
       - Release Note: 3.appendix/release-note.md
